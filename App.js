@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open working on your app!</Text>
-      <Text>ДЗ №1 </Text>
+      <Text style={styles.text}>ДЗ №1 </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  // text: {
-  //   fontSize: "30",
-  // },
+  text: {
+    fontSize: 30,
+  },
 });
